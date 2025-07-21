@@ -1,3 +1,6 @@
+
+
+
 export function calcularDistancia(origen, destino) {
   const R = 6371; // km
   const dLat = toRad(destino.lat - origen.lat);
